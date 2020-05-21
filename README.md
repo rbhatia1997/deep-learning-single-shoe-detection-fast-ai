@@ -1,6 +1,6 @@
 # Introduction to Deep Learning with Fast AI - Single Object Detection
 
-Before the team made the transition to multiple object detection, Ronak was researching Fast.AI - a tool built on PyTorch for advanced machine learning application. Fast AI is an incredibly useful tool and enables people to do data science in relatively few lines of code. It's meant for people to practically apply advanced deep learning tools. 
+I've been researching/studying Fast.AI - a tool built on PyTorch for advanced machine learning application. Fast AI is an incredibly useful tool and enables people to do data science in relatively few lines of code. It's meant for people to practically apply advanced deep learning tools. 
 
 The great part about Fast AI is that most of the tools/tutorials written for it are in the jupyter notebook format, which allows you to write documentation and experiment with code in a neat, intuitive manner. In order to run jupyter notebook, you can go to terminal and type in ```jupyter notebook```. Then, navigate to the directory that contains the ```.ipynb``` file that you're interested in and click on it. It should run a jupyter notebook that lets you interactively run code. 
 
@@ -19,7 +19,6 @@ Finding the setting option to change to GPU:
 
 The actual settings you want (make sure to hit save):
 ![doc2](documentation_photos/doc2.png)
-
 
 For any more clarity about the above steps, I suggest reading Fast.AI's documentation [here](https://course.fast.ai/start_colab.html).
 
@@ -66,7 +65,7 @@ You'll then be able to interpret your results like the following:
 
 ![doc7](documentation_photos/doc7.png)
 
-The next step is cleaning up the code (e.g. removing images, prune top losses). The code will walk you through deleting duplicates in the code. Once this step is completed, the model can be put into production. The command ```learn.export()``` enables you to export the content of the learner object for production as a ```export.pkl``` file. You can then create a routing for web applications to utilize this app. Now, this bring us into using the code written for Nike shoes and the stuff that's currently in the current repository. 
+The next step is cleaning up the code (e.g. removing images, prune top losses). The code will walk you through deleting duplicates in the code. Once this step is completed, the model can be put into production. The command ```learn.export()``` enables you to export the content of the learner object for production as a ```export.pkl``` file. You can then create a routing for web applications to utilize this app. Now, this brings us into using the code written for Nike shoes and the stuff that's currently in the current repository. 
 
 ## Deploying the Code That's In The Repository
 
