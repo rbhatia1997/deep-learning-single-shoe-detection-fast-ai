@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1BZqb16JZMobm7FasbY1FFy7g-8VlOQEG'
+export_file_url = '*put your google drive link here*'
 export_file_name = 'export.pkl'
 
 classes = ['AirForce1', 'AirMax', 'Huarache']
